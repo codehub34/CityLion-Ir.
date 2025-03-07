@@ -748,7 +748,7 @@ body{
     position: fixed;
     background-color: rgb(0, 0, 0);
     bottom: 50%;
-    mix-blend-mode: ;
+    /* mix-blend-mode: ; */
     right: 10px;
     padding: 4px;
     border-radius: 50px;
@@ -832,7 +832,7 @@ body{
 .coreV-content p>img{
     max-width: 100%;
     width: 70px;
-    mix-blend-mode: ;
+    /* mix-blend-mode: ;  */
 }
 
 .coreV-content h3{
