@@ -1,3 +1,46 @@
+let popupDismissed = false;
+
+function createPopup() {
+  if (popupDismissed) return;
+
+  const popUp = document.createElement("div");
+
+  popUp.innerHTML = `
+    <div id='popUp'>
+      <p style="font-size: 18px">This site uses cookies to help improve your user experience.</p>
+      <button id="dismissBtn">Dismiss</button>
+      <button id="acceptBtn">Accept</button>
+      <p>Click here to see our <a href="#" id="privacy">Privacy Notice</a></p>
+    </div>
+  `;
+
+  popUp.style.backgroundColor = '#0505b1';
+  popUp.style.position = 'fixed';
+  popUp.style.bottom = '30px';
+  popUp.style.padding = '20px';
+  popUp.style.textAlign = 'center';
+  popUp.style.color = 'white';
+  popUp.style.width = '100%';
+  popUp.style.margin ='' ;
+  popUp.style.height = '150px'
+
+  document.body.appendChild(popUp);
+
+  document.getElementById("dismissBtn").addEventListener("click", function () {
+    popUp.remove();
+    popupDismissed = true;
+  });
+
+  document.getElementById("acceptBtn").addEventListener("click", function () {
+    alert('Cookies accepted');
+    popUp.remove();
+    popupDismissed = true;
+  });
+}
+const popupInterval = setInterval(createPopup, 2000);
+
+
+
 const openNav = document.querySelector('.openbtn');
 const closeNav = document.querySelector('.closebtn');
 const sidebar = document.querySelector('.sidebar');

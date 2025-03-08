@@ -40,6 +40,7 @@ body{
     font-family: Arial, sans-serif;
   background:linear-gradient(rgba(0, 0, 0, 0.669),rgba(19, 10, 10, 0.5)),url(web-Images/Free\ Office\ Logo\ Mockup.png) center no-repeat;
     background-size: cover;
+    background-position: top;
     color: var(--textColor);
     margin: 0;
     padding: 0;
@@ -263,8 +264,7 @@ body img{
     background-color: #d7bdbd;
 }
 
-@media screen and (max-height: 450px) {
-   
+@media screen and (max-height: 450px) { 
 body{
     font-family: Arial, sans-serif;
     background:linear-gradient(rgba(0, 0, 0, 0.669),rgba(19, 10, 10, 0.5)),url(web-Images/Free\ Office\ Logo\ Mockup.png) no-repeat;
@@ -949,4 +949,31 @@ body{
         align-items: center;
         text-align: center;
     }
+    }
+
+    #dismissBtn, #acceptBtn{
+        padding: 10px ;
+        font-size: 16px;
+        background-color: #9e0606;
+        border: none;
+        color: white;
+        margin: 4px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    #privacy{
+        color: white;
+    }
+
+    #privacy:hover{
+        color: #0508b2;
+    }
+
+    #popUp{
+        width: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
