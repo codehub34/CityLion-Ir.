@@ -284,27 +284,98 @@
                             just to have a chat</span>
                     </p>
                     <div class="address">
-                        <div class="addressIcon">
-                            <i class="fa fa-home"><h2>Adress</h2></i>
-                        </div>
-                        <div class="addressIcon">
-                            <i class="fa fa-phone"><h2>Adress</h2></i>
-                        </div>
-
-                        <div class="addressIcon">
-                            <i class="fa fa-envelope"><h2>Adress</h2></i>
-                        </div>
-
-                        <div class="addressIcon">
-                           <i class="fa fa-home"><h2>Adress</h2></i>
-                        </div>
+                        <div class="col-md-41">
+                            <h5>Head Office</h5>
+                            <ul class="list-unstyled1">
+                              <li><strong>Headquartered:</strong> at Supermarket, Gardnerville, Japan Freeway, Monrovia, Liberia. </li>
+                              <li><strong>China Office: </strong>6th Floor, Jin Shan Elephant Trade Mall, Xiaobei, Guangzhou.</li>
+                              <li><strong>Petroleum Sales Office: </strong>BMC Building, Opposite UBA Bank Freeport, Bushrod Island, Monrovia, Liberia.</li>
+                            </ul>
+                          </div>
+                          <div class="col-md-41">
+                            <h5>Contact Info</h5>
+                            <ul class="list-unstyled1">
+                              <li><a href="tel:+231 886 542 731">Phone: +231 886 542 731</a></li> 
+                              <li><a href="tel:+231 77 728 2544 ">Phone: +231 77 728 2544</a></li>
+                              <li>Email: citylioninc@gmail.com / info@citylion-lr.com</li>
+                            </ul>
+                          </div>
                     </div>
                 </div>
+
+
+    <div class="container-form">
+        <h2 id="contact">Write Us</h2>
+        <form id="form" class="form-Item">
+            <div class="field"> 
+              <label for="from_name">Full Name</label>
+              <input type="text" name="from_name" id="from_name" required>
+            </div>
+            <div class="field">
+              <label for="email_Id">Email</label>
+              <input type="text" name="email_Id" id="email_Id" required>
+            </div>
+
+            <div class="field">
+              <label for="phone_Id">Phone</label>
+              <input type="tel" name="phone_Id" id="phone_Id" required>
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <input type="text" name="message" id="message" required>
+            </div>
+          
+            <input type="submit" id="button" value="Send Email" >
+            <div class="userReply"></div>
+          </form>
+    </div>
             </div>
          </div>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container-footer">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>About Us</h5>
+          <p>We are a leading shipping agency committed to providing reliable and efficient cargo solutions.</p>
+        </div>
+        <div class="col-md-4">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#home">WHO ARE WE</a></li>
+            <li><a href="#about">WHAT WE DO </a></li>
+            <li><a href="#service">HOW WE WORK</a></li>
+            <li><a href="#contact">TEAM</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Contact Info</h5>
+          <ul class="list-unstyled">
+            <li><a href="tel:775776899">Phone: 775-776-899</a></li>
+            <li><a href="mailto:info@citylioncargo.com">Email: info@citylioncargo.com</a></li>
+            <li>Address: Petroleum Sales Office: BMC Building, Opposite UBA Bank Freeport, Bushrod Island, Monrovia, Liberia.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-center">
+          <p>&copy; 2025 City Lion Cargo. All rights reserved.</p>
+          <p>&copysr; Powered by <a href="mailto:masskeita64@gmail.com">MassCode Hub</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
     </main>
 
+
+  <script type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script type="text/javascript">
+  emailjs.init('FCNq54kRlb3e_ucdR')
+</script>
     <script src="scripts.js"></script>
 </body>
 </html>
