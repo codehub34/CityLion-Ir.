@@ -1011,6 +1011,10 @@ body{
         justify-content: center;
     }
 
+    .imag-wrapper img{
+        width: 100%;
+    }
+
     .img-main{
         width: 100%;
     }
