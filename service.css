@@ -342,170 +342,46 @@ body{
 
 
 /* Basic styling */
-#home{
+.home-container{
     padding: 15rem 50px;
     max-width: 100%;
-    /* background-attachment:fixed; */
-  }
-  
-  
-  @media screen and (max-width: 767px) {
-    #home{
-      padding: 0rem 0 ;
-      max-width: 100%;
-    
-    }
-  
-    
-  .home-head>.homeText{
-   font-size: 3.8rem;
+   background: linear-gradient(to left, rgba(2, 25, 21, 0.444), rgba(0, 0, 0, 0.797)), url(web-Images/img4-768x432.jpg);
    color: white;
-   padding-top: 14rem;
-   max-width: 80%;
-   
-   line-height: .9;
-   font-weight: 600;
-   /* text-shadow: 2px 1px 5px rgb(255, 255, 255); */
-   text-transform: capitalize;
+   background-position: center;
+   background-size: cover;
   }
-  
-  
-  .home-head .homeText>span{
-    color: white;
-    font-size: 2.0rem;
-    /* text-shadow: 0 3px 2px rgba(165, 167, 229, 0); */
-  }
-  
-  .home-page{
-    padding: 15% 10px;
-    background-color: #ebcab4;
-    max-width: 100%;
-    border-radius: 5px;
-    /* box-shadow: 0 2px 0 white; */
-  }
-  
-  
-  .whatsBtn{
-    display: flex;
-    justify-content: flex-start;
-    
-  }
-  
-  
-  .home-head p{
-    font-size: 16px;
-    line-height: 1.5;
-  }
-  
-  
-  }
-  
-  
-  
-  @media screen and (max-width: 420px) {
-    #home{
-      padding: 0px ;
-      max-width: 100%;
-    }
-  
-    
-  .home-head>.homeText{
-   font-size: 2.8rem;
-   color: var(--text-color);
-   font-family: Cambria, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   padding-top: 14rem;
-   max-width: 100%;
-   line-height: .8;
-   /* text-shadow: 0 3px 2px rgb(255, 255, 255); */
-  }
-  
-}
 
+  .home-context{
+    text-align: center;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.097), rgba(32, 1, 1, 0.129)) ;
+    padding: 24px;
+    backdrop-filter: blur(5px);
+    border-radius: 45px;
+  }
 
-.home-page{
-    padding: 15% 8px;
-    background-color: #3a040400;
-    max-width: 700px;
-    border-radius: px;
-    backdrop-filter: blur(2px);
+  .home-context h2{
+    font-size: 1.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    letter-spacing: 1px;
   }
-  
-  .home-head{
-    padding: 10px 15px;
-    font-size: 18px;
-    max-width: 600px;
-    color: white;
-    font-family: sans-serif;
-  }
-  
-  .home-head h1{
-    font-size: 4.8rem;
-    padding-bottom: 25px;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: var(--text-color);
-    line-height: .8;
-    letter-spacing: 2px;
-    /* text-shadow: 0 3px 2px white; */
-  }
-  
-  .homeText>span{
-    color: white;
-    font-size: 3.1rem;
-    line-height: .6;
-    /* text-shadow: 2px 0 var(--text-color); */
-  }
-  
-  .home-head p{
-    font-size: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    line-height: 1;
-    padding-bottom: 20px;
-    color: #ffffff;
-  }
-  
-  .whatsBtn>.home-btn{
-    padding: 10px 15px;
-    margin-top: 25px;
-    border: none;
-    border-radius: 8px;
-    background-color: #cb4154;
-    color: white;
-    cursor: pointer;
-    width: 200px;
-    font-size: 18px;
-    transition: all .5s ease-out;
-  }
-  
-  
-  
 
-
-.scrolldown{
-    display: flex;
+  .home-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     align-items: center;
-    margin-top: 10px;
-   font-size: 5rem;
-   align-items: center;
-    justify-content: center;
-    color: #ffffff;
-    animation: bounce 2s infinite;
-    box-shadow: 0 2px 5px rgba(200, 186, 186, 0);
-    cursor: pointer;
-}
+    gap: 50px;
+    margin-top: 20px;
+  }
 
-@keyframes bounce{
-    0%, 20%, 50%, 80%, 100%{
-        transform: translateY(0);
-    }
-    40%{
-        transform: translateY(-30px);
-    }
-    60%{
-        transform: translateY(-15px);
-    }
-}
+  .home-textbox{
+    max-width: 100%;
+    width: 100%;
+  }
 
-
+  .home-textbox img{
+   max-width: 100%;
+  }
 
 /* Core Values */
 
@@ -827,7 +703,7 @@ body{
 
 .teamContainer{
     padding: 4% 70px;
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.386), rgba(135, 207, 235, 0.379)),url(Photos/shape-3.png)
+    /* background: linear-gradient(to bottom, rgba(255, 255, 255, 0.386), rgba(135, 207, 235, 0.379)),url(Photos/shape-3.png) */
   }
   
   .teamHeader{
