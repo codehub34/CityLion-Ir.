@@ -345,7 +345,7 @@ body{
 .home-container{
     padding: 15rem 50px;
     max-width: 100%;
-   background: linear-gradient(to left, rgba(2, 25, 21, 0.444), rgba(0, 0, 0, 0.797)), url(web-Images/img4-768x432.jpg);
+   background: linear-gradient(to left, rgba(2, 25, 21, 0.444), rgba(57, 46, 46, 0.402)), url(web-Images/img4-768x432.jpg);
    color: white;
    background-position: center;
    background-size: cover;
@@ -703,7 +703,7 @@ body{
 
 .teamContainer{
     padding: 4% 70px;
-    /* background: linear-gradient(to bottom, rgba(255, 255, 255, 0.386), rgba(135, 207, 235, 0.379)),url(Photos/shape-3.png) */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.188), rgba(135, 207, 235, 0.169)),url(web-Images/africa.svg)
   }
   
   .teamHeader{
@@ -737,11 +737,10 @@ body{
   }
   
   .teamContent-box {
-    height: auto;
+    height:auto;
     text-align: center;
-    /* box-shadow: 0px 0px .5px .5px rgba(37, 3, 3, 0.411); */
-    backdrop-filter: blur(5px);
-    background-color: rgba(255, 255, 255, 0.226); /* Adjust transparency as needed */
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.032); /* Adjust transparency as needed */
     border-radius: 10px; /* Optional: Adds rounded corners for better visual effect */
     padding: 20px; /* Optional: Adds padding inside the container */
   }
@@ -754,7 +753,13 @@ body{
   }
   
   #Kcali{
-    margin-bottom: 2.5rem;
+    margin-bottom: -.5rem;
+    border-radius: 1000px;
+  }
+  
+
+  #Kcal{
+    margin-bottom: -2.8rem;
     border-radius: 1000px;
   }
   
@@ -821,8 +826,8 @@ body{
 
 
     .contact-container{
-        background-color: white;
-        padding: 20px 70px;
+        /* background-image: linear-gradient(to top right, rgba(255, 255, 255, 0.283), rgba(33, 107, 114, 0.131)),url(web-Images/africa.svg); */
+        padding: 0px 70px;
     }
 
     @media screen and (max-width: 768px) {
@@ -836,7 +841,14 @@ body{
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
         gap: 30px;
+        align-items: center;
     }
+
+    .getTouch{
+        text-align: left;
+    }
+
+    
 
     .getTouch h1{
         font-family: 'Anton' sans-serif;
@@ -949,20 +961,19 @@ text-decoration: underline;
    
 }
 
-#contact {
-    /* text-align: center; */
+#contact1 {
+    text-align: center;
     color: #000000;
    letter-spacing: 2px;
-   font-family: 'Anton';
-   font-weight: 700;
-   padding: 5rem 0;
-   background-image: linear-gradient(to top right, rgba(255, 255, 255, 0.037), rgba(87, 98, 99, 0.131)
-   ), url(web-Images/africa.svg);
+   font-family: sans-serif;
+   /* font-weight: 700; */
+   padding: 3rem 0;
 }
 
         /* Form Container */
         .form-Item {
-            max-width: 600px;
+            max-width: 100%;
+            width: 100%;
             margin: auto;
             padding: 20px;
             background-color: #f9f9f900;
@@ -1083,8 +1094,8 @@ input[type="submit"]:hover{
   }
   
   .container-footer {
-    max-width: 1200px;
-    margin: 0 auto;
+    max-width: 100%;
+    /* margin: 0 auto; */
     padding: 0 25px;
   }
   
@@ -1169,6 +1180,7 @@ input[type="submit"]:hover{
   @media (max-width: 480px) {
     .container-footer{
         padding: 0 10px;
+
     }
   
     .col-md-4 {

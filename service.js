@@ -1,3 +1,18 @@
+// Image Galary
+const images = document.querySelectorAll('.imag-flex img');
+images.forEach(image => {
+  image.addEventListener('click', () => {
+    const mainImage = document.querySelector('.img-main img');
+    const tempScr = mainImage.src;
+    mainImage.src = image.src;
+    image.src = tempScr;
+
+    mainImage.classList.add('clicked');
+    setTimeout(() => {
+      mainImage.classList.remove('clicked');
+    }, 1000);
+  });
+});
 
 
 const openNav = document.querySelector('.openbtn');
@@ -61,48 +76,6 @@ scrolldown.addEventListener('click', () => {
 }
 );
 
-
-// MouseOver
-const homeBtn = document.querySelector('.home-btn');
-homeBtn.addEventListener('mouseover', event => {
-    event.target.style.backgroundColor = '#b43041';
-    event.target.textContent = 'Contact Us🤙';
-});
-
-homeBtn.addEventListener('mouseout', event => {
-    event.target.style.backgroundColor = '#cb4154';
-    event.target.textContent = 'Lets talk🥰';
-});
-
-
-homeBtn.addEventListener('click', event => {
-    event.target.style.backgroundColor = '#131d3b';
-    event.target.textContent = 'OUCH! 😜';
-   setTimeout( function(){
-    alert('Thanks for reaching Us!')
-    window.location.href = 'https://wa.me/+231775528982?text=How%20can%20we%20help%20you?';
-   }, 2000)
-});
-
-
-
-// Image Galary
-const images = document.querySelectorAll('.imag-flex img');
-images.forEach(image => {
-  image.addEventListener('click', () => {
-    const mainImage = document.querySelector('.img-main img');
-    const tempScr = mainImage.src;
-    mainImage.src = image.src;
-    image.src = tempScr;
-
-    mainImage.classList.add('clicked');
-    setTimeout(() => {
-      mainImage.classList.remove('clicked');
-    }, 1000);
-  });
-});
-
-
 const btn = document.getElementById('button');
         const userReply = document.querySelector('.userReply');
 
@@ -155,7 +128,7 @@ const btn = document.getElementById('button');
                         btn.value = 'Send Email';
                         alert('Sent!');
                         setTimeout(() => {
-                            userReply.innerHTML = `Thank you ${fullName} for contacting us!`;
+                            userReply.innerHTML = `Thank you ${fullName} for contacting us! We will be in touch with you shortly.`;
                         }, 1000);
 
                         setTimeout(() => {
@@ -187,6 +160,3 @@ const btn = document.getElementById('button');
             const re = /^\+?[1-9]\d{1,14}$/;
             return re.test(phone);
         }
-
-
-
