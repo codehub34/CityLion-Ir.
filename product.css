@@ -26,6 +26,8 @@ body{
   transform: rotate(180deg);
 }
 
+
+
 .custom-shape-divider-top-1743967945 .shape-fill {
   fill: white;
 }
@@ -51,7 +53,26 @@ body{
 
 @media screen and (min-width: 767px) and (max-width: 1024px)  {
 
+  .custom-shape-divider-top-1743967945 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
 
+.custom-shape-divider-top-1743967945 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 117px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1743967945 .shape-fill {
+    fill: #B10101;
+}
 
     }
 
