@@ -11,19 +11,21 @@ body{
 }
 .custom-shape-divider-top-1743967945 {
   position: absolute;
-  top: 46%;
+  top: 30%;
   left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
+  height: 219px;
 }
 
 .custom-shape-divider-top-1743967945 svg {
   position: relative;
   display: block;
-  width: calc(100% + 1.3px);
-  height: 117px;
+  width: calc(100% + 1.8px);
+  height: 217px;
   transform: rotate(180deg);
+  fill: blue;
 }
 
 
@@ -51,7 +53,7 @@ body{
 }
 
 
-@media screen and (min-width: 767px) and (max-width: 1024px)  {
+@media screen and (min-width: 767px) and (max-width: 99px)  {
 
   .custom-shape-divider-top-1743967945 {
     position: absolute;
@@ -70,9 +72,6 @@ body{
     transform: rotateY(180deg);
 }
 
-.custom-shape-divider-top-1743967945 .shape-fill {
-    fill: #B10101;
-}
 
     }
 
