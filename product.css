@@ -53,24 +53,16 @@ body{
 }
 
 
-@media screen and (min-width: 767px) and (max-width: 99px)  {
-
+@media screen and (max-width: 767px) {
   .custom-shape-divider-top-1743967945 {
     position: absolute;
-    top: 0;
+    top: 34%;
     left: 0;
     width: 100%;
     overflow: hidden;
     line-height: 0;
-}
-
-.custom-shape-divider-top-1743967945 svg {
-    position: relative;
-    display: block;
-    width: calc(100% + 1.3px);
-    height: 117px;
-    transform: rotateY(180deg);
-}
+    height: 219px;
+  }
 
 
     }
