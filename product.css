@@ -7,7 +7,7 @@ body{
 
 .container-about{
     padding: 12rem 70px;
-    background-image: url(web-Images/Team-Image.jpeg);
+    background: linear-gradient(transparent, blue), url(web-Images/Team-Image.jpeg);
 }
 .custom-shape-divider-top-1743967945 {
   position: absolute;
