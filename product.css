@@ -9,24 +9,24 @@ body{
     padding: 12rem 70px;
 
 }
-.custom-shape-divider-bottom-1743967720 {
+.custom-shape-divider-top-1743967945 {
   position: absolute;
-  bottom: 0;
+  top: 20%;
   left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
-  transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1743967720 svg {
+.custom-shape-divider-top-1743967945 svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
   height: 117px;
+  transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1743967720 .shape-fill {
+.custom-shape-divider-top-1743967945 .shape-fill {
   fill: #B10101;
 }
 .about-text span{
