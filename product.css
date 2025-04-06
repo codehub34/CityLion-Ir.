@@ -11,7 +11,7 @@ body{
 }
 .custom-shape-divider-top-1743967945 {
   position: absolute;
-  top: 40%;
+  top: 46%;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -27,7 +27,7 @@ body{
 }
 
 .custom-shape-divider-top-1743967945 .shape-fill {
-  fill: #B10101;
+  fill: white;
 }
 .about-text span{
     color: rgb(255, 255, 255);
