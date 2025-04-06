@@ -3,6 +3,7 @@ body{
     margin: 0;
     box-sizing: border-box;
     color: white;
+    background: linear-gradient(transparent, skyblue), url(web-Images/Team-Image.jpeg);
 }
 
 .container-about{
