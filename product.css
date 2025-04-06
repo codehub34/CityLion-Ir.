@@ -9,7 +9,26 @@ body{
     padding: 12rem 70px;
 
 }
+.custom-shape-divider-bottom-1743967720 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
 
+.custom-shape-divider-bottom-1743967720 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 117px;
+}
+
+.custom-shape-divider-bottom-1743967720 .shape-fill {
+  fill: #B10101;
+}
 .about-text span{
     color: rgb(255, 255, 255);
     font-size: 1.3rem;
