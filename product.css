@@ -510,5 +510,6 @@ body{
 
 .footer2{
   padding: 5em 20px;
+  background: linear-gradient(transparent, skyblue), url(web-Images/Team-Image.jpeg);
 }
 
