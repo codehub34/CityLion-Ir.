@@ -503,6 +503,7 @@ body{
 
 .footer2{
   padding: 4em 1px;
+
 }
 
 
@@ -510,6 +511,5 @@ body{
 
 .footer2{
   padding: 5em 20px;
-  background: linear-gradient(transparent,transparent, black), url(web-Images/Team-Image.jpeg);
+  background: linear-gradient( black), url(web-Images/africa.svg);
 }
-
